@@ -21,8 +21,11 @@ public class User {
 
     private String password;
 
+    private String team;
+
     public User(UserDto userDto) {
         this.name = userDto.getName();
         this.password = userDto.getPassword();
+        this.team = userDto.getTeam();
     }
 }
